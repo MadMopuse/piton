@@ -225,7 +225,7 @@ def play_classic():
     while remain > 0:  # сам по себе раунд угадывания
         print(f"Попытка номер: {curruent_count}. \nОсталось попыток: {remain}.")
         print("🍄" * 23)
-        # print(answer)
+        print(answer)
         print()
 
         ressive_hint = (remain <= total_count // 2) and not use_hint  # условия получения подсказки
